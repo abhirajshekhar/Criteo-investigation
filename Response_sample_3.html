@@ -1,0 +1,28 @@
+<script class=\"pn-ad-tag\" type=\"text/javascript\">
+    (function(beacons, trackerURL, options) {
+            var delay = 1,
+                passed = 0,
+                fired = false,
+                readyBinded = false,
+                viewableBinded = false,
+                deepcut = false;
+            deepcut = Math.random() < .001;
+
+            function fire(url) {
+                (new Image).src = url;
+                return true
+            }
+
+            function track(msg) {
+                if (!trackerURL) return;
+                if (!deepcut) return;
+                fire(trackerURL + encodeURIComponent(msg))
+            }
+
+            function fireAll() {
+                if (fired) return;
+                fired = true;
+                for (var i = 0; i < beacons.length; i++) fire(beacons[i]);
+                track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([\"http://rtb.da.us.criteo.com/pubnativeortb/auction/notify?profile=285&imp=9I4Jrw9Rxo59FnzbNM2VW1nR4-zcs6IBwAcpPa_1GVtqT7P9aJEgzVsRTyuK6mXxbJrm4YHUtBqz4JvK-T1rDlX0K2F6ftj34vuHXsmkIOb-lke16XrFmOduyzpLjyU4hwf5iWxzNmj6cmmpUGLSV3ob-VwVN2cg0B63oigmvfSQDC1iPWyMb1FGIyBn-38Arde4a0O2jKp2HXMywIdQ2l3EM3Mzq0KcdNvBWa8KJlKtzUnBDQ--XfJQsIRl5i8GKET-O2Ap1V5E0bpbLLwwL5fOmmIbawbgcUL_6SKneBWkxPhSnCbYUk0KEiWYtDMjHDwrlKNly11s2pBEXFDef9-h2JL5BqJAANvz_pg-jqZEZH08qaU9zAhSXkup_YiZco2RDXjdoQjp2sIFqBui3H6Q1Or9GKxhes-kPzpbGIJLdRqPrXCpyWhPsUnJi422IEqMigmsysbmAQs8_OIUEsVSbMQiXaxadyPoYzo0c30&price=bSm3JKdOAOeBwMm8DnIXweouVM9XNcyGSt18yQ\",\"https://got.pubnative.net/impression?aid=1615591&t=7YoShrlOSlo8TijD9bFVxhISK8t6_2qEGbUAH-Feagcc2Qa2UG67Ll5q3kleauPMhs82mTdh2ShgM2ypSRnnGnEyQgMTy6Ww0_EgCJNrW5DQ1FKU1pKJ-x6ETY7z5L5Apzys_PDnbyoa8WQxrR0Y9IXf-m6t1NMBRPCJhueBvfR-P4BHBK_pq3hM6JCyTp3pOb-yjq3IOa_NJDBLDxcoNlL7UJgkYW93OMtd5vB7Jg_fRV1pNQvu2U9stLvT99v76bIWzKhtJqPaMi7xeBWFJiE-w9qJrJ3lWIKq0jhsy5u686_cIITyrUldPT3XBwz89MwdfBqG-TLv7DQbBX0g68CGOg6upOnI6cNrde5WAh1egRjcKEk95MGDZAiGvGZByfJM9DtA72my31yfxssucKA8dmUg8a1w9VsisPTC3OPhaKVzR4kJlg9GHztuEZ0SlWuP_rzXz-hc3_QqWLMY_yDE6gfSyhaKy_sX0uEgg7W58FuEga2Ego6ZBKhvcT2-e1_8xBaTLYYJJCQc1IPtQPj3A3st-eRipbN2rvAG2PL7a0ZRJsKfEfAYb7gQT1b0aoEUyXiFAJYjplnRIOyWXtJFHmt3KH0jOs9-BFGtBuuCkHHhsZf7NVWuCeVJcqYKtcMewcijpRX4rjV2N68F-bmPBRV6urSq7W-QBbwZVYbQdkkscEB18wzfZAAeUxteEddzLTyj6xWQOYfsJ8d94WalRYg9mljRefy6lXzis1KP-cHcD7KG0awVEWce16pzFXhgyUE3w6o46Wh5150yJh3fv6dmShLIN015j9T9knB4NDFL8DaXLR7u6-PKjJMw8oEl5r4I8n98KWMBB0VIaYZXgWLEA6gFU9lY8h-S8PPWOdvIew&ap=${AUCTION_PRICE}\",\"https://adrta.com/i?clid=pn&paid=pn&avid=483&caid=190644&kv1=300x250&kv11=aefcdb49-9d0d-41ee-aad0-4776bb86d088&kv12=15005_anap_banner_300x250&kv16=47.488605&kv17=-120.353850&kv18=com.handmark.expressweather&kv19=99be9570-3949-4e49-9005-d7751ccb2455&kv2=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.handmark.expressweather&kv24=Mobile_InApp_Banner&kv27=Mozilla%2F5.0+%28Linux%3B+Android+10%3B+LM-Q720+Build%2FQKQ1.200308.002%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F83.0.4103.106+Mobile+Safari%2F537.36&kv28=LM-Q720&kv3=99be9570-3949-4e49-9005-d7751ccb2455&kv4=172.58.44.25&plid=10607467&publisherId=1007303&siteId=1615591\"],\"https://got.pubnative.net/imp/error?t=IMTbUbkv5dNn-PXBJF8JRO3Bvfr4oRCXzKwcPqBqJUwQQJ1LYgsePyk3pNGiaPEGbJ9x37Rr_zU6QLl-CLYVNz9YF2snGYdjjoaUSZHae1w8_NEHiFfIsrAaxn0k0r05xWenuEMn_NSv&msg=\", {\"pubAppID\":1615591,\"dspID\":483,\"impID\":\"aefcdb49-9d0d-41ee-aad0-4776bb86d088\",\"isMRAID\":false,\"isHTML5\":false});
+
+</script>\r\n<script type='text/javascript' src='https://ads.us.criteo.com/delivery/r/ajs.php?did=5f523a6662150930dcecba91cce08000&z=9_bxHsvknrOPwTQ5dQTg0EMN74v6X3MftukNgg&u=%7CJaeJWleXdNRaB3g7YJwiPzHJp%2BZxQPkhHHGnPQoAGGI%3D%7C&c1=JueOF0hx20UzvHd0DIODnjQb9py7c9xfQldC60xGbzfJzERUC7-gJqbqm5Zouy7aow-9Y-yzHDNafDl1JySgrCFNPLhdn3RLC_TIdBgFHK935zkh_FGemO9vYMWSYrMX0YUpXKdQ8VpgRTH8-_VPQ-WxPAwV_WuXtwEagkpytK1RKmnao50Ybl1j6NL2ZCo9I5T9GQ-hYTQ_fSSuTD6ZO3Bi7G9qyFnqSLLzS-RoXYGVQOuZAhft8GwFnhq7C6wtJHYualGwAj-INyMPPRn4sGO06a-zOUF0paOglavQLfT5-yT8jNIAMwUwtTB5gunDeuDQTJGt4ZPU9fVVSsx1p6jmtjL136J2UoCJWpUdfeq0h6BQ_LLWjNc7Abzlw7KwQDwG7VY7Ul6vhI_jOWjcB-0GiHn0HDiiRAi8KzoZ_OCp5bjglM0vciBaq0mx9xY0rD2qMyeHjQaFgsKgtk-VAIN9jQImCC7arvIbipBkRBowAqYKi-c0dd1OmtUlwsRPWcrk-k_KTzlXZppltBY2EPH96gBFYvyznWtSq9YS91XSw3_RI0fqp1VsEmykgCbV3I5Z3_VclVZNzIrFsEO2_A'></script>
