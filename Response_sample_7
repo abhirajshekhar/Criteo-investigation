@@ -1,0 +1,38 @@
+{
+	"status": "ok",
+	"ads": [{
+		"assetgroupid": 12,
+		"assets": [{
+			"type": "htmlbanner",
+			"data": {
+				"w": 300,
+				"h": 50,
+				"html": "\u003cscript class=\"pn-ad-tag\" type=\"text/javascript\"\u003e(function(beacons,trackerURL,options){var delay=1,passed=0,fired=false,readyBinded=false,viewableBinded=false,deepcut=false;deepcut=Math.random()\u003c.001;function fire(url){(new Image).src=url;return true}function track(msg){if(!trackerURL)return;if(!deepcut)return;fire(trackerURL+encodeURIComponent(msg))}function fireAll(){if(fired)return;fired=true;for(var i=0;i\u003cbeacons.length;i++)fire(beacons[i]);track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([],\"https://got.pubnative.net/imp/error?t=G1dYB5lBN_0GLG_bYAqmdVZjOEEGKxa9v_v-_AI4Y1ioPM0JNqe69bfVP-YLPJvsl_eRD2cVBFmACjNhvfyfvSkH7M9Dl1iaNI1WNgvaRaam5juyAxTL9srW_B9H5tN774TzEQu6teXY\u0026msg=\", {\"pubAppID\":1419490,\"dspID\":483,\"impID\":\"4c6fffa5-2ded-4eed-8a07-b57565a8ffb8\",\"isMRAID\":false,\"isHTML5\":false});\u003c/script\u003e\r\n\u003cscript type='text/javascript' src='https://ads.as.criteo.com/delivery/r/ajs.php?did=5f523a640a0d2c370b19f9e311dc1d00\u0026z=Zfx95lw6jpVqP5tXBmnoYnMSLQ2otaeKKYiUwg\u0026u=%7CJnOxTOK5vwSjxxEpOn3MqljUvt5WqsyHOs19IsuOdZ0%3D%7C\u0026c1=YMs03j1O3euyBahUF3CaFtFWUi6ywdOjWDY_qo_PfhuJ-E58aZG8pvDM71GtZB0OmhSYgdIlsnR3iPdL-T2ZyPJ_0-lM1tSABt9bXdJGbKyZika_TWGgr1eY4AoRQIa2H8E3aaeTszik23DPQ33YuQS7qCDN_YQpQihOxXimpzItnILC0Y8H73Ntbe6NjD8cPs_o2xc8QHT-KUWDdVBiwbHh07zbJ6xTnAfy8fA8ICeeUc8iRNzuRmfbq01DE8PpsreyPDW65ChllkUihANCt6H345lg8cXtW6q_zunDMds-Gp6ajePc0uHnDugQlEfCbUD09ph-ljM-QSYFFJucKvQ-yvl74gDZBzaBSB9oUBMxQXmmMncQ4pb0PGLltjcbPTHaCJwaW5ZkblK0ehf1rwIcFcLslpehWp-0LBv5ZOnSZW1NWAd4ShEvApdvuRZqyzNTiMaiUNF07NulMgVLqcyEnkkQYtb7piE-M-A_d8dKrXpF54hKkygZK2VtD9dW4_1slupgGO1k0_z6_x_HS3L1mZJJkvwCMHDtQ0crI16I3sp-HhzU7JHB0Wic5dEGrX3wpJw0oVI'\u003e\u003c/script\u003e"
+			}
+		}],
+		"meta": [{
+			"type": "contentinfo",
+			"data": {
+				"link": "https://pubnative.net/content-info",
+				"icon": "https://cdn.pubnative.net/static/adserver/contentinfo.png",
+				"text": "Learn about this ad"
+			}
+		}],
+		"beacons": [{
+			"type": "impression",
+			"data": {
+				"url": "http://rtb.jp.as.criteo.com/pubnativeortb/auction/notify?profile=285\u0026imp=M4Cc1qyYV82Ae7MqLaGbNRaDsBYN6VAwa9VAUa533bSfVosC9AWljjELcCaSOEDjM_7WMqYwhQuAityTrH91khvs_rL-YkMSGC8od1zt_SLTEJuummZV8yiA8_9BEj1qZR8Ha6Z3tNj6EwCgJnXB7T7ZNgkof4ahHJnBy7Xs-UZhqFHiwcO8zsOgcr1VuhYAYgtDkQ1D9E8eCTA_mkp1E-9P2E1eOotQNvW0LoTIGchv2Rn55UL9TTHeduHy-Ic3emebDSTzLJDvGqrQUHaLldBm042a5nGjWjbQz0L__gR7S93OYbZhl0GN99PJSdOugJ0cH5QVIjZMXOFouA-2Wu8WxAQwODLFG5kqKMADBWrtM5L_W6ZxYMA9wWA45RxEzcmRI5haJtRSrRQVf_MKX-Fweipz7lp3yATsUtmB8udA52zQjesM3UuKxLwCx9PDUxe0fUdlIMt5iiXEQl6Hp477hEdEoaIJOIl3Jmp9oMtRwiCwCdln4qPsG9Atq1brJFNk0gyJYJA\u0026price=GgctcHYIBwFDKrS-Z6IswFNsngYrG0G_FGD54A"
+			}
+		}, {
+			"type": "impression",
+			"data": {
+				"url": "https://got.pubnative.net/impression?aid=1419490\u0026t=R-lxEIGVe3oYaMJHUbinbcT_ezpdLlxwmuT93gG2FFR9i3D6_aHFFIH3qMPxOH1USeZMErYbbTyXBPo-of21cNo7vLTSeffPRAJHsaH1c6R8YwA_hVN9gzl85ar9AP52ibckUOvPtLTW0PG5-NEb4IZbGIlS2k_pUpcJS1dBXORZBdZm4ruPvsoHmi3MOt9IUYkZ-G4OH1_5bLbXO6pq-1E3mP8un3AAJgNhXMDFQk-WTS0A0qdP_XtsJ9Il7YHtX890ZfdCYeD9SxGCXkbEY4RcyC8PdhMwzYSFP2OaFCQqjS4Q_XZovQf7au5NVksbZgRYvNSjiJuJnfuhbvUHQRNtoImGBoqpnRuSsafd5oEn0MunejnfUEapil-eoxgvS_yTTZdTj175awKB07ZRA0pV-fn5YgJuvaOfvW5_B9wbFH_1KOAQmT015HNLZ85os7sgJdK_DQzLgnfSOUhVYl95doErYQnZ18v6wV0uDOn8Vz5zxxIWYx_AUAQHc0uyOCnF6OtjRWxs1V3IIVimKgBOoFBnjGva0Tm67HUvR26z7Yu7toxJgNCS41-fMc2v9WiVcA1PEpiI2woqgofuj0mFOiu16EJcVrymkY5-Nt6zEXKrqtgUZl0gtq986xugJhvXivWn4q_T6TycSHyFutoV4brmtDpG2Ns-ONC97UATgCVRoBKtEoKLT73EoaPezl8v0trKpCFjRBxRb_Lw_08OxcBbhMYb26tVeKu9uq8yG9Z8QHF-qcg63_R07_8bayC_Xcr-xDovbGks3OJK7xthmuE"
+			}
+		}, {
+			"type": "impression",
+			"data": {
+				"url": "https://adrta.com/i?clid=pn\u0026paid=pn\u0026avid=483\u0026caid=112977\u0026kv1=320x50\u0026kv11=4c6fffa5-2ded-4eed-8a07-b57565a8ffb8\u0026kv12=1419490-2-414976\u0026kv16=-6.999390\u0026kv17=110.472663\u0026kv18=com.hornet.android\u0026kv19=e22ff886-98e6-4356-9f6a-8fe8e4758c03\u0026kv2=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.hornet.android\u0026kv24=Mobile_Web_Banner\u0026kv27=Mozilla%2F5.0+%28Linux%3B+Android+8.1.0%3B+CPH1803+Build%2FOPM1.171019.026%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F84.0.4147.125+Mobile+Safari%2F537.36\u0026kv28=android\u0026kv3=e22ff886-98e6-4356-9f6a-8fe8e4758c03\u0026kv4=182.2.68.24\u0026plid=8904950\u0026publisherId=1007177\u0026siteId=1419490"
+			}
+		}]
+	}]
+}
