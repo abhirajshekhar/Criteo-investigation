@@ -1,0 +1,28 @@
+<script class=\"pn-ad-tag\" type=\"text/javascript\">
+    (function(beacons, trackerURL, options) {
+            var delay = 1,
+                passed = 0,
+                fired = false,
+                readyBinded = false,
+                viewableBinded = false,
+                deepcut = false;
+            deepcut = Math.random() < .001;
+
+            function fire(url) {
+                (new Image).src = url;
+                return true
+            }
+
+            function track(msg) {
+                if (!trackerURL) return;
+                if (!deepcut) return;
+                fire(trackerURL + encodeURIComponent(msg))
+            }
+
+            function fireAll() {
+                if (fired) return;
+                fired = true;
+                for (var i = 0; i < beacons.length; i++) fire(beacons[i]);
+                track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([\"http://rtb.jp.as.criteo.com/pubnativeortb/auction/notify?profile=285&imp=BlmD5G3QEAGiJ1YxQRRfTGP0ryZ7-IGBAjWvH81WIKjd0ZUb1ypNxyVSmVYenFeXGoSOWlw9m_MivOogakvKMBpKzqZXvuJwe8r0G4xcdsI3jgjFBvRDrzzfOjlMsQzScTYtuf2MDTaj0jcn0uSANfFHT7bIAsB7v2zlKJzlRDVMIPltlDVDJN6JDVihcet-TdrUILyURBRkErvi4shHqf2OD7iojLDYwxGHKJUj2zIKpVeQbYL2XP81e6dArEEFbbUwp0lBapjMvpzYELb_2ZbQNP87N3lKQx6hG0RHuxxJ72g5S76KKpjZtxHg2KVyJJ3RacZC5HuY8btu8xnqJG6p66LdPmzN6Wz899cDrz_oNmvptJb3ZH9Tcvf8zIGR1UK5z5H7QEsmG_so3gt3t8dK87jhW3GLuKHYX4pYqd5VC9L3AVcLD7sxlP8PDrx9E7giunOWgdOe_4r3UZOC_uKAmV3RbQ8uxa4bCC6dandnFLLUkPbV_RGSlu51sakX&price=j1QiXspmsy1mhrAlL_11H1CHsfuV_zmLg51fGA\",\"https://got.pubnative.net/impression?aid=1721002&t=YNjNr6rCLcp0EgX7Hyb3R7EjWmAvHrCtCfHeIgqnpU_Oecxq6By9XK1dPHleZQSXvbeez2Gcr_zPCeySAJH2L9oiaJa48L_VLfShuHLwWespo6hbwsnXEKtw1WOvuTOe154gmdpVHd6K2fcW94xvXLD2rmhQwBuHDmLaY7HZgle5Ff1ZinUMI4p0o4eyrxEdd7_RA_9hHMNi1i63unVudOZipUYXH8J9Xf1yNdexRenBEdTUhNcdyFcrbFrH5C8Opif1Bkupo9jTwKAJBsRo5lrPTb2l1cOkj4Q7xVNshppn0NcxXuIQ51Tdp6vUX6A0WVDSOdpJ3X9HLRplIz8Ldlw5sQY3oodFymTMvv9xstRKo81UmBu02UUB8St6H-isVgzt1ysOJSFCoME9ONCNpgxlohzJqCYTYI1jcsKsyhKeHbUgTFeItbZ4R4GH9QiqkcgtD0jpn6OijWuOqOPuiOFdXz_oXsgk-rZQ55ZtyxKTFxRZj7TRd7nj-egZTYuSKblladNi4PiH4rBBl-HD9PRHjpLheKoRIJurZWIizN55lNjW3h2s1iyP_Ct4BbhueTgoqDWQQlZg3gsI5pTgQVwW8-AveQ1eNtVPUY8PCq8U0KsH4aO0S5i-IF_7jWuvTfhWyuB9GssX-K3AzspgCysdBaDJqznkMYzTYczCagCZ4ajID0P5vGG9T8GW_8R0K0JXUB-uX9nlZf9ARWU6t9EjORJ65a5KEmtrRrSmTfByUauvP8I8ZNTB5ZDjqur_CL3UlZUlpb0YYEmoOpLeuh3gZKDVrE3xoedXF6zq1OHi6ahm3NXXEGKKBl17pUPmLg8l17bcBfbCOh8&apc=${AUCTION_PRICE}&dv=4\"],\"https://got.pubnative.net/imp/error?t=aWpAF-ktvb8VpoW8i5hvVdPoG2HhF1L8JiQCLZXWh2z9FHtdCMQTpWYrU9ePUMeQic0gSD058YqaauSyxYygpx9nkC5HaWGREnbq0tsh_Hab3yfY2bHjQOAEaDVizookRZ3dnQJ_cqW9&msg=\", {\"pubAppID\":1721002,\"dspID\":483,\"impID\":\"37b1de96-9f06-4fd8-9f27-61659760b487\",\"isMRAID\":false,\"isHTML5\":false});
+
+</script>\r\n<script type='text/javascript' src='https://ads.as.criteo.com/delivery/r/ajs.php?did=5f523a638501d16b341fe80d3758f800&z=QTHrfBOKkkCTyp93DZ7xlDUpiufTgGjU7dLcxg&u=%7CJnOxTOK5vwTK%2FcXGr3ROhRHV4W398a1vBlTeuxNIfD0%3D%7C&c1=0n2XosTo5cmAeubJdqF3gaBLVBgJK6UtlxPwESytz95liRTcqjr466DLGWoOgu0sHKPEu6gt095aLBWfo_h8MDz7CCrw8vGZl3B_vqH-mhNO9DzLcfQmmCZCvZRtdU-rQk0htGPXzfapB-cl94BnEh74OwBj6d2bwFUgOItEjWNV1kkOnzlrwSL0sL8ORQ4ZldViv4HQVYknX63oyHjmCoM-fsg88QQqEFmJp3DQIr_cdmUySJCLnehRFX47bw5t9ch3oDhYP3si6QC67YDNYBW13IZqnBEOSpB1ymOwO2EyhnLyX87-B-EZpS6lxtplO8HXUfL2CWz1RRbY3F9wuP_AQ0rn9l1TC6sFXre4vDpVrkLCPIdQDTUIRFtb_47t4yMLnPSlYUH9rEFn39SCCr5GhxyecSzB1jHnykjM8_Fa-5MQj19b3YWQaZb0ODcmpGs5zLHPC8N4_q7SRgcjO-mpY1KCjNmrYeOhGnWc82TOWArN_v4MSVQNjJNO-_ZNffo49-E6DdRZWjjBsPN0FPxsCZoAplPndaiYx6yG7rs'></script>
