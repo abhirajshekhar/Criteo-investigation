@@ -1,0 +1,28 @@
+<script class=\"pn-ad-tag\" type=\"text/javascript\">
+    (function(beacons, trackerURL, options) {
+            var delay = 1,
+                passed = 0,
+                fired = false,
+                readyBinded = false,
+                viewableBinded = false,
+                deepcut = false;
+            deepcut = Math.random() < .001;
+
+            function fire(url) {
+                (new Image).src = url;
+                return true
+            }
+
+            function track(msg) {
+                if (!trackerURL) return;
+                if (!deepcut) return;
+                fire(trackerURL + encodeURIComponent(msg))
+            }
+
+            function fireAll() {
+                if (fired) return;
+                fired = true;
+                for (var i = 0; i < beacons.length; i++) fire(beacons[i]);
+                track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([\"http://rtb.da.us.criteo.com/pubnativeortb/auction/notify?profile=285&imp=Q2xD4opIXxRqg1pJLcHqwnVJ7_KiTrHh-WipVQd7HkG142Yir3YquA98QY9zK_mL7tkaRuRCDc8EDgMa8Es1_X8KuZZH0n1JOjG-kwm4rIYSA2i1SEOL2hJSaiUU6r2copayk-x60W0yP10Dv6DEDolPi5KwI1E9vBnDRFlqRTnbkfKSF0V0w6F8W3aBe1ygxwqdjULhoVBgg7vMEMwweRJGdTbgEePm02R6lqiJtST5Np0m8_a8el_O_GuwbM6t2FxyTutOxrjzRBoKkmGx_iHfBvTYa4CNq-7rM5rOJFxit5jK0OlNUelBJu3uUPgLHwNhm1ye2RN7sFHxm2OH4iXQZvi93EOxfywzo8ZDmXbNTJFMo8MEHwP6Mw1H6Uborqv4lPKs5Tc6ZQxGGrkBn0Ba8MI1nuyuBDPryx9Ec-YxucZCXb6c686uRqhvUGaLikkFWebRSi7uXc0m4OcRtFO-AkPLQyZKMQGJ_L95vKNpmSFjxYrlbQ&price=qqP224TYKgOqzQ6FbX1NTCeTPFLG9agPUbkzNg\",\"https://got.pubnative.net/impression?aid=1743996&t=PeSSzVx-Bdq_KarUWddTpOKMSvybK6JaP4Kk-unaRkVf_o2lVTmz5f24cA0Vnn7WqgWXsBCQ85LrJgYSD7nih-aeLvbDqvVAW_Ji4EFmNVYJ4fQxzNPBAcPlFAA5KyUDTwn4B3ox6AqZHuRDFDa99tRk95E_36XRsRGm9smI1Jeb26phvCTkE63t4KrByJrYE4pCg8Q3uTJSEhHnECyIYDIlmfL0zk5aPcfPjD6ix0c631_E1Tb5tMm6tprz0u8jCo-sgs92BHa-IzC1wDgWiAs-27kGT_eTi66upYPZAqpiinH2X8DhQwkY4uBKw73bkr_yvOY51KELMz0MgrKqXVbMBXUNr_QP7-_f1xA_WefODmznb3sJ3EnkT-Wm6ecTuMi1wUR-qRP-L9ueYoSjkteIQ22To5p1T8pPmeyveIn-PvSxehFscW839gHZCJEIB042SotOUkF2Pj1QPXfI7BIcb9xhaQ2rrcy909vUV-AAVjdhM9lOechoRJCNyi9GKkhJtg06D2P47ZVjHKBIOMSlG5O83_kEk1aaj45_Tsd8LMtl9QIRGepIP6zCD0mB2KXEePMFUz1JjTyaizn4w51TOSP4zI9g2QvwRPUStu0kgBpJigLQSIw3qTPgNA3tYa_QOBkHTIqXfrys3Tcad5rIHJQ43nGlvgKsuhyvuRWpW8cz5ybdwV8fWPfsqc4PZBxyuoPJo4dacuJGSJfzjJeKWtiiihfVnCiSBW69BGhsuiRP22hHYXrBtJVR1Mi8LMQoRHG3iFqVnqI4Y3YzuiyS9PSYIfOdcAbKQUabniHy-K5sM_sEnWtzov4Yut8nkd5efVHSUAadYm7ibTonR-O-XM26e9bu7DrVzDJIIg&ap=${AUCTION_PRICE}\"],\"https://got.pubnative.net/imp/error?t=I_LIu35rbFHjhfuOnhS4PuPhB4IsuMMDGeEcyHL6gzXgfCtF5EhYSSYd1BdnTWBF0nK3DXFQ13J7D6QSMNmKJ2ne02qHM6oFwDnKW2nfAGPc4qhaZiQHru_6Ud-YaRX9dVudhZ5IgJp6&msg=\", {\"pubAppID\":1743996,\"dspID\":483,\"impID\":\"71cb7bcb-cd63-4e63-b780-079f1a5632b3\",\"isMRAID\":false,\"isHTML5\":false});
+
+</script>\r\n<script type='text/javascript' src='https://ads.us.criteo.com/delivery/r/ajs.php?did=5f523a65bdc5e91038911bf14c014f00&z=ZLWHOK47TRQhXIyloxUJ0XXAQgH2bBYS246epw&u=%7CJaeJWleXdNRCmEEI%2F7kTenlPHECo35RwSslsfrmJoGM%3D%7C&c1=0n2XosTo5cmAeubJdqF3gaBLVBgJK6UtPYqwpG4a7UegdTFTwc8Jumrftok-1RGb5u5Pjs72iTrxlO637D5uzbPJ8HfsOoFpspgQY0OplJ7OYseqaJ4JUhYO3Hdu8dJZC6oYEmjVLt0T9PEfhEfT13r6-T2Z_XTj0ogb5ssysMrB-wKpP4P4InTg3W0KjExJwMC8wxA4bI9axDpo_dGfaydMIfwtLKBUjmUN__pK-Oc9gfUYYeh9nFSUiAzAxOFHU7AWc_Xhnb_ED4Fgc-ejb49lrRD_TvaR9VRjLsV9xb1_pwJmju-4cu-s83olM8wOp_DUCYCXz7BLnPsJ4rmjdoE2s4vALXn1tcFDMwJ6bI-lbzNotRyuLgAr4puTwZ4O0JmisiuJH_mzF8U1x1z-r-z0AQAkkmcgBkq5UYCiyNKLVIyv7uzby3OrtzzVQSSAp7A0vKYoeaoctMSuAgEA87ADkoeQZ5M1Bw1YETJDWKMgALYIuvvkbDP80_f9emsqlRTJiMrEg8ncyBQ8WzpJVfBkeT-b6g3JZU-l71davuYrGp29v9uTl_DmhTcI1EnSLjWZMs3dPYI'></script>
