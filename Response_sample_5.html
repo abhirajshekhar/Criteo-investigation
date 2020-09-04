@@ -1,0 +1,28 @@
+<script class=\"pn-ad-tag\" type=\"text/javascript\">
+    (function(beacons, trackerURL, options) {
+            var delay = 1,
+                passed = 0,
+                fired = false,
+                readyBinded = false,
+                viewableBinded = false,
+                deepcut = false;
+            deepcut = Math.random() < .001;
+
+            function fire(url) {
+                (new Image).src = url;
+                return true
+            }
+
+            function track(msg) {
+                if (!trackerURL) return;
+                if (!deepcut) return;
+                fire(trackerURL + encodeURIComponent(msg))
+            }
+
+            function fireAll() {
+                if (fired) return;
+                fired = true;
+                for (var i = 0; i < beacons.length; i++) fire(beacons[i]);
+                track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([\"http://rtb.jp.as.criteo.com/pubnativeortb/auction/notify?profile=285&imp=4HRhz4smSsT93p2wQRRwSEfELTALLVVpiInGyNSB5DR5Ij7jE2MqibgvTPRSXBZhRGMcU6qW23oKdEJY0I6Fz5lstAKpEMhVWBULVJyGJNbCSdl0b5nbL8zhteAZPM_v_Srdb0zuZhevo-Z09mgxZy2OqRCvLDeN5klzf4AgPAqcNffHIUxpwxE3U2h5qrnBLrRqdwyCo6sRMY6xQPIoczoeww7ENN8zJOYWxQ5Jr6WaGIlWiL-mWZj5AfOfI0KtrcNkPjLvzyiajKJtQy-lwA9Cv75nzUi4VdZKYFON7bzebFWZ6aOomTY_wS9yTEpAUkWNTFzxWpuqZr4NMnSWHKRPv4FpE2fIBkWXY7_CNG70jobSDDZmYTJNZfNbZDPJeAR4e2VeD5oyvWNzxsDZXsop1XEiaYDpEZmy0jlvP2kAaPqVPbcUHI8kJBVcyroO8VDL8FWlnAY0KyX3yvY89Fob7yCBiReNH9zKQ7XyEbM7BgZ1d64na7HbmRFjFdVu&price=HuY_Rc_gUQZlvPJ2MV9UTDk1Pjn6rsD0JCA7RQ\",\"https://got.pubnative.net/impression?aid=1719936&t=2HoeSaWa5xA44-Lpq3MWWHNjIz8mpim8ZwRgIbxiOLOPszpHdKG0dHDO8OvvkRIEx0N-e279VUcaTJ10oUKnauciR6KCbv2jjlu_L1XWcjacykjtkfS5mcChzY1vu8hoEmM2Zfd1cvU3X5nhMvVfXgN6-KgR0kKPMvkSt5Zbl-8TtQsNQkRr5UU00v8KkqXRwOx4HZA0GzO2bluBHgdluBp2nE-a4nIFRoNlLKl61kgOnsWaJQxrHrQEs1Y68cJCrm_V9G0MT8PEOYWMuKmcznFvyqyK03CVDkAvpM5jwIQp88PZsSWXtxHJHNXG-Nx7BmGWl0nhrnb-4LllPEf0WvxRcUUbvfB5mqkuLxIey2S4jHpsoY_adnCJZd0Xyhw6XU9nV11qHwkGxcw7nytWgHRAynwLAwaij2WFwlBxhI2WPAgc_7fkcnFZ6qF1jGloqjDJ0qvMAqFSPoi-QiKiS5CAy4YMvlLN4xd7BGIG_2U9N-PIRy0ZEx6YRapbRPGpZIYui1vwuR5KYto5nuMVOWZvIc-NKdD9UIBzono6fAt0hpfSm8wjB-U4-2aNzidBrTPlauzzwhjHqPCqb19toQu8WrHzW8c_C3yklQdHMslidMH2GBWYlS9VJ0Fzqr9KvRAbzCg82_U2KeubKhwuyBk5hzUADgO6YiranV51548SYTj7guiP-BYy6WVU-BdnQI0sqBYfNoHPl8UvIC830mbffZg7RNeRqYwuNZpWiN15yrfdtcwg3tISbEh6DVWN5N2_56w5nPn3F0OyrEwKuHe69W9BS_PQ2X79vDlvFo8T8e5piymEbeh6ufTe&apc=${AUCTION_PRICE}&dv=4\"],\"https://got.pubnative.net/imp/error?t=-EGHRmT5pgnZwC-lOuZm96NsPG2Uo8ftmMko5qRqfva-EDVo55SHlqErdIZVbDujD5AOEw0VloWvx5Q3t7w_FsYiVzAf1N6_cn8ccmTOerCzCx_bbtJs3MZov9ge_SP6sa_rblVKoQXt&msg=\", {\"pubAppID\":1719936,\"dspID\":483,\"impID\":\"ec819fa9-a847-464b-a5d8-8339639250a4\",\"isMRAID\":false,\"isHTML5\":false});
+
+</script>\r\n<script type='text/javascript' src='https://ads.as.criteo.com/delivery/r/ajs.php?did=5f523a662c3ae70816bbf8fb9e6ef600&z=e7Cpos0aKk5RHgSDwmukNqikm7eGN7-lVhXuFw&u=%7CJaeJWleXdNQVEs7Eg90EvgsfB6b4YBcw7j7%2Fl%2BtqpsM%3D%7C&c1=JueOF0hx20UzvHd0DIODnk41bMM5fzqaLMPrhlPjsKm3zXueDPcEyr6AlVTbP9Fx9TuC05QDJz6QjeSqzBWdasCiSv7P57UknPpthOJb421ZycxYYb95JVE3jsD98x5fMmo-jZfpizUsfNQ_6TJ8nCTjWpsU9bqp-G27Azjhr8cdL405FjoT1MaaaMACuFG6LDWHtnjQqqBVpu49GRZaEIR38-14hEziiqKLJMNNFPSRciT0wJ3a5ZxUCKDFRZP16lT7BepjYhENDtfTERwMTbwnsqwnLh_NI6Vm-ZtHCAwt22wYNVH40VicyYUv6ZjI6nAtIBlQKQd6q7hSJOHy-6TnaWGP_-TISf9ZR8R2_sURENFd335l6wtjhe19ov1je7j5bMVowqtGq2RdL0MWyWEiKaeiWcLn2tU2rl2quTk9lWJeL68WfWuApjjcFZMmCxijrxWP0BtQ2kRcBF9rLPE-gnfnjuOlUq3v3iYGh7RbPbEnAqU0FY6_998quvDjbrWiuz1QNCTUqRJTXYGbiUrZMVe9RJhdpA-LReQa2ruKbMaWjFlPpw'></script>
