@@ -1,0 +1,28 @@
+<script class=\"pn-ad-tag\" type=\"text/javascript\">
+    (function(beacons, trackerURL, options) {
+            var delay = 1,
+                passed = 0,
+                fired = false,
+                readyBinded = false,
+                viewableBinded = false,
+                deepcut = false;
+            deepcut = Math.random() < .001;
+
+            function fire(url) {
+                (new Image).src = url;
+                return true
+            }
+
+            function track(msg) {
+                if (!trackerURL) return;
+                if (!deepcut) return;
+                fire(trackerURL + encodeURIComponent(msg))
+            }
+
+            function fireAll() {
+                if (fired) return;
+                fired = true;
+                for (var i = 0; i < beacons.length; i++) fire(beacons[i]);
+                track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([\"http://rtb.jp.as.criteo.com/pubnativeortb/auction/notify?profile=285&imp=AzActHXK5Xn32NYaMp2OgkMgIbHri-Qo2hAoyab0x9iNf6u03oEJNJSBHhILEc4QY94lfcp-qjvlIixg4av8eV7KuebJ0etZzmBcNX3HjDW4SR-AEhacXwPkUFbUGOCfxPfgI8AzQvM_XBkZO64VUXuo6eGh06ahM5_B6pulCKSe5cp7-8MvmDRJ_m7kvLNg82isnIVBaZW0W1jZ_1j_SvMAZ_VRtgV95vNQpqZzZ928Jqc1hw678oi8-_5weZLpvNk5c6dliJQLzo3romkZyjV2Jgwhyiq_NTM60cDKpxJGI6zrjuVd92aMFJez9aBk1psNNMDJGBBwty_2BP6qmd1DIVN88UrlSNUuckgLDMMbnYHENEkeCXyC3vQPw86nt7s8VYvC9lg8laKB0ds9y0lSNGJSgmREuTS1AiQLwdes3qrU54iJzYxG7bwLz7O236h2lUan0GQfVf19Ln34NfTgFN9WUp6GuKz82vpS6OnHvZ2ohroAH8lf6u4Djihsej0kylqoUQA&price=4eER5vqatHbRMjl2lt7IyUuRUL85oZOBf9-V6w\",\"https://got.pubnative.net/impression?aid=1749336&t=Nvh4OA9yaDZuwX07Ayc14zvOUSx83Qzuh9cBWu6TrKmzV3s91cT63QS1InIhFKioE95ozbu1lijvQxu3MsJLMPDZqcaLD6gxEr6jHB_5VUXMZdmeLk6HBIMFJbW28tmZ_ViSLJj7SIja1AEhcSCchicVy4Yuhk3W2mxGfTvcRBzccZSvRdGAdAsC9z6lTz1KnOV2JgLdfDfbgpTKGr9rGjBQ6k501wnVNj6yH2ATOOejWz2zgmi_Q_ruuwacWTUl27_F3tGMOgx5zsqAZdTaFDkrt9qdh0yBc3eCcj-l1HlEiB2hS782H2h7XdsmQS0zUUSmoFmGVu7EgHhx5g6j08ODqrwPnntb-AGPJniS72Bs5ICzVkfZvkMB-xBNIKGwhPLCxc8UN0sp5OzR8_wXrph6AhARf1h10of_qCtahcDH0mMafhAw27mbNqakZ7lp6AeaWcJsuqhzJbnz4q-9y8Y-D-__qBIl8SNgI_fQMkYwjoDCVX5Wal88BfjbNbEBNNzPN95Qctu7q7Z8XQpHRyICobnIPP8KfcVRft4VGM65-Y61xt4bqlMbeyiD06lIZt1iYDS0ZFI4TwZ49BfEEJmZo4vOn8v_sKTifqppTAYoTPTnP0HygdRcwhFbVIjnURKKpnf2FGcEqKUbIdiKDGAZxsTDqOo24YaDNX6KyXLsiXe-nQkcyawua4-5Zub3xtP4uRY1_kj1ZEtfQ6HfRZPrkE35hmwDcpcSILM9PLmWRkw0kCi1blbSH6kGCLdxeNg6-H-2nDddq1PnuuqkWIvr7vtCLq8vAIY9YDdDmiduUdn_5ujph3f0VE5hz9z_3jOxmqWl1AmpOuWdQz0&apc=${AUCTION_PRICE}&dv=4\"],\"https://got.pubnative.net/imp/error?t=Gm-uGhlVm_gTn8hTYeWsgAMnhb8fsy6Mlq3KZJrTTguW-sMLtj4N3hEbL-roZXIeK7azIOOEBheqWsI8o8ZUtNPVkdms4r3tSHdc2UuhmdAxnkZ9X_RrS-2PM1Hhq67PbSVbgtd4IcWW&msg=\", {\"pubAppID\":1749336,\"dspID\":483,\"impID\":\"b48ed2f2-4ac3-417f-9ac5-2a3b648256cf\",\"isMRAID\":false,\"isHTML5\":false});
+
+</script>\r\n<script type='text/javascript' src='https://ads.as.criteo.com/delivery/r/ajs.php?did=5f523e25196d2a04c390d3fce57c2400&z=UTKG7aEY1lNwPTFIcy1Xjx5GvWD6i7VsaMymKA&u=%7CBPqcI3L1ZB62ET6YAGoHWcV6jQP9UyUBm9gemZJrgWw%3D%7C&c1=YMs03j1O3euyBahUF3CaFtFWUi6ywdOjWDY_qo_PfhuMLJY3liHKwsPXIwZ5bmlSuXWLffD_d7EVa5JjnCQVBrmMmXdMCKD5-qD2myVktVt71PAZXYcAKFLQmBAmu3NbRFtSZN1nNZuHBELVZ_DS2Xmz7yJI-3orgzi1D7hiDDRSaxRV8AjeEqaD3iNNuI7PgTpAJLDcR5wH95dvI-WwI-R31lH4q-loS9zDEp0zu3bJzH7wM9zvxG3NqLoPtllWki5a5chxeB3-PxN8OdAIiY-7bjgTEeEbmGuD0VrXwxc7bfymWM5gYlBZPoa6A3DuCSR8wAh-ibP7JWpyTwIFCSVG42WHDj2GBMruN1QQgJ5Dl8z9xb2qUHGKx3ElTG8Pz9BKWWeNcdFyz7dKXtD7N7LoGjHCF8FIKt-S-ppsXIiEoU7sAnBNweS1-1fJEI-rje3Dcm7-dU5VCYYdAdsMv1L1gdndKm8SfiyrA-bm7pZndoTve8qalozgyZltjbke-MIo7UIAKF5Cr26eYjr-7olZn22PAmu4xIfn0598wZfJBvYK5lyXZVxrpU_4V740YAQBf10t8HQ'></script>
