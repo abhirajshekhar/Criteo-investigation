@@ -1,0 +1,53 @@
+{
+	"status": "ok",
+	"ads": [{
+		"assetgroupid": 12,
+		"assets": [{
+			"type": "htmlbanner",
+			"data": {
+				"w": 300,
+				"h": 50,
+				"html": "\u003cscript class=\"pn-ad-tag\" type=\"text/javascript\"\u003e(function(beacons,trackerURL,options){var delay=1,passed=0,fired=false,readyBinded=false,viewableBinded=false,deepcut=false;deepcut=Math.random()\u003c.001;function fire(url){(new Image).src=url;return true}function track(msg){if(!trackerURL)return;if(!deepcut)return;fire(trackerURL+encodeURIComponent(msg))}function fireAll(){if(fired)return;fired=true;for(var i=0;i\u003cbeacons.length;i++)fire(beacons[i]);track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([],\"https://got.pubnative.net/imp/error?t=VsRDJAtS0Ze3F1qTv4TE58mhQawsn_wA40HijIsAYdzCf0_n-C-EQDJUzHFGcULL0e0WvJa8ZHXGEtMFCgfO4-vMragYJ1kVc-feohNgasUSGgZ4QK3h_Ytj4dB1cwXrSNiJ5vujWWTP\u0026msg=\", {\"pubAppID\":1667609,\"dspID\":483,\"impID\":\"81152033-d13c-4952-99d9-0ab3114f6fd7\",\"isMRAID\":false,\"isHTML5\":false});\u003c/script\u003e\r\n\u003cscript type='text/javascript' src='https://ads.as.criteo.com/delivery/r/ajs.php?did=5f523e21caa99ef71e5c748c297a6600\u0026z=RyZHgSIz6cvwIGj3WIIqES7_Z7ezBPe2T3lLLQ\u0026u=%7CBLj6Gp32EXXDXtcIQkyTfcQkKs2zRHdWJ8EG5PHRMy8%3D%7C\u0026c1=JueOF0hx20UzvHd0DIODnjQb9py7c9xfQldC60xGbzfvlJP5b6PG7oCEOl4Cd5SoHhH4xH-It1ZXOQzMv4kOawXDT6Jc4U6J3-gR3gquh_Qv-Xq7GMpCbdlzCuJK5-x_xr5fFFeWuHVW2f3DDKZgzEve6WC0v6-WSR8xsF-D03oe_Urmd6pUjX5rGr62PhVvAKFMH0zfRKCvoOhLdqIGvXLSJ4TQn_9gDOv2UyrKh2nLtpPkXi3NIi06pXWUbJnyfRlmSNNBl_dvuj5FETDark59EcBKLOQQSHszZkFwbH2ytl4-P_Ry8k01IWpkrzxXjJFQRp1U76GAQUbOcQdBSZp4LqK_lEfbDPcPEpjAGeVdUxL6AGPAnZoj94Uby7T6i5kJxmJhSHNnhU4I8SqkZZAl9FNmlkY5pG29KnCGTmVPpHE03L_26L-58wByAttT-9kzuoaiXuCPUZUP_QEC0hWsbdcDtFltvvmmcoNPWcJQcIshVyCQINdc4cFZ5RXOOwOMIAzViJlU2VtwCQ1pscTt0G2PbmHAL3wpn-ll-bhZqTvWSyS7XouN-6J33aE-'\u003e\u003c/script\u003e"
+			}
+		}],
+		"meta": [{
+			"type": "points",
+			"data": {
+				"number": 258
+			}
+		}, {
+			"type": "revenuemodel",
+			"data": {
+				"text": "cpm"
+			}
+		}, {
+			"type": "contentinfo",
+			"data": {
+				"link": "https://pubnative.net/content-info",
+				"icon": "https://cdn.pubnative.net/static/adserver/contentinfo.png",
+				"text": "Learn about this ad"
+			}
+		}, {
+			"type": "creativeid",
+			"data": {
+				"text": "8616026"
+			}
+		}],
+		"beacons": [{
+			"type": "impression",
+			"data": {
+				"url": "http://rtb.jp.as.criteo.com/pubnativeortb/auction/notify?profile=285\u0026imp=qAGIVRFn6pkdMObKMLNsA7LJZT9Ae05rdMbrN3zP3yvw6qqEiAWNO1i0ANmwCO6g_CB_c9VXzVpJdRbDLyk-8iRUf6LXzwXf8sadZhIQEWfY7LWgT3NvOUa1Itrn4XUJVYpuk5YZffj-rsSlW_uJg2eEP_hyQBo5opsKJbX1xBWVU61km6aT_rNXtwDv3SzOVBAd7F1MCMKH-pZTTur8qekiV3lfGiqFS2T8jJ5P5qeKuN2WD3WEYjyZCtYSSz0MGwGKy7RbH97hJACcbsSVW4hDgUp3gSLBpxmajdohFnbpr7SQ5yFcChT6KiIRc_pP4MqPstRHUaiKdjPfhx0zcXp5h_WMB7GO1pJE6p9sw364SdctFmqnKgI48NI753YBfS6ZvdRCoohhpsRN-Q3UVcw_7T9XEqNTK0IO99YJuTls6JDdHFELrGsK37WIHVUu5FpIus8r_8TJKHMtCB2ribkOHcfL_XY3FWjPb3-yuvafiO9lEf0QRpXTnq0CZRxx\u0026price=T3JhCVW6vL-n2Z84WUcrPopP1iOHmR1UeQI-Aw"
+			}
+		}, {
+			"type": "impression",
+			"data": {
+				"url": "https://got.pubnative.net/impression?aid=1667609\u0026t=rBchaU4mVKANqSzy6h5f9gLPMXERFTL7h6QL13qvevJMiArqZBQAzhbali9EtqJcqCFtWBcjj3bplRHKQgJeySYa67JCouJPJfZW66P32fG2n1lVTFVD4junQ909nMfcr7SMVrg8g5WjHUDu2ABf-EhrMRH-LwbYUHzAgcpVfHlvkdUGQCBjpPqrvydRq0-5lcTLQ33lfdLEqqHrb_JVw8rxfha9nRqRPPvC91FhpAMBAGfJOF78_rITQrL5246iNnHPg7WIrHOiSNXPmDkM_mGcTcohlp1NtiykqgAuoobKfMTHZLvuDmuZmW3F5Sxf4AKhjP0oLQMlA0oCwqYc1G9-9x-tb0YvAoifMS3t0rflECjKfojjVtY62BHax-UcZduV6c_m140QlmjFYtgUNsMRSbwj7nh41IhvQ9kLjAC00JRvWAuNvaxTVyilJECGIlI7C4UZbBZMgw30Ezgfzq_U3r5VTUnCsJ5UHRiF-L3e7Sd8uaShO3XtvKGcbBcqDLTuECbH_MmzuttFxjq8D0UiP74R_rwPYwBTC4C-5_USS8IdLXJBEGfrSHeYSL5bkNJiTcxEXUQvafjHBB_iQhiDi6Yz3h-CvJd-XNyr6B0tapAY2wZelM8dBFCegGGk9QM1z5RGXThsvpbUHKXHtXIuxwqGAh3DQHIX831KUsyGsXcLxUbxsXwxkRhnx5_riQ_-JprKk4Tvo4xG85XcRNeqA-qrjIrOyCDGyx-RV3Qsa3PF5bod8Gi-ZMHVA68xJwrbbT3HS74REblR8i42eQ13xW7fSvgd6KA1Oog4aqZEMvQlnphsL4M"
+			}
+		}, {
+			"type": "impression",
+			"data": {
+				"url": "https://adrta.com/i?clid=pn\u0026paid=pn\u0026avid=483\u0026caid=81859\u0026kv1=320x50\u0026kv11=81152033-d13c-4952-99d9-0ab3114f6fd7\u0026kv12=1667609-2-664393\u0026kv16=13.708300\u0026kv17=100.456200\u0026kv18=com.minijoy.match3\u0026kv19=63673e6b-8cd7-403c-8c7e-d2f8f8e74850\u0026kv2=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.minijoy.match3\u0026kv24=Mobile_InApp_Banner\u0026kv27=Dalvik%2F2.1.0+%28Linux%3B+U%3B+Android+9%3B+RMX2030+Build%2FPKQ1.190616.001%29\u0026kv28=RMX2030\u0026kv3=63673e6b-8cd7-403c-8c7e-d2f8f8e74850\u0026kv4=1.47.103.170\u0026plid=8616026\u0026publisherId=1007320\u0026siteId=1667609"
+			}
+		}]
+	}]
+}
