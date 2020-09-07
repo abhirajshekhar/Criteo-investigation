@@ -1,0 +1,36 @@
+<script class=\"pn-ad-tag\" type=\"text/javascript\">
+    (function(beacons, trackerURL, options) {
+            var delay = 1,
+                passed = 0,
+                fired = false,
+                readyBinded = false,
+                viewableBinded = false,
+                deepcut = false;
+            deepcut = Math.random() < .001;
+
+            function fire(url) {
+                (new Image).src = url;
+                return true
+            }
+
+            function track(msg) {
+                if (!trackerURL) return;
+                if (!deepcut) return;
+                fire(trackerURL + encodeURIComponent(msg))
+            }
+
+            function fireAll() {
+                if (fired) return;
+                fired = true;
+                for (var i = 0; i < beacons.length; i++) fire(beacons[i]);
+                track(\"imp P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\r\n    \"object\")+boolToChar(window.top===window))}function boolToChar(val){if(typeof val===\"undefined\")return\"N\";return val?\"1\":\"0\"}track(\"inf P\"+boolToChar(options.isHTML5)+boolToChar(options.isPlMRAID)+boolToChar(options.isMRAID)+boolToChar(typeof mraid===\"object\")+boolToChar(window.top===window));window.addEventListener(\"error\",function(event){track(\"er2 WIND \"+event.message);trackDbg()});fireAll()})([\"http://rtb.jp.as.criteo.com/pubnativeortb/auction/notify?profile=285&imp=yG2BRnAupz1CbVI1w6I4iE-AoKxrGba1SJwl-k-UtJZrwR9TypiDEWzjXn2lFOvLM16DfbiXRxDFQrV51BsyeLeEA2Rhx4ICaH7NiTteVV8MQsajj58HTP-FWuYW8-22ZNt5irBF506qazj1pky0RMOZXJQj6wYsyN0rvmKWLTHlhJz2ijZB3d6Zp6uGD_SK2ZjIA1FVClbGv_Wl8YyDI8nVd4uuKa5SjvKnvmtieSyCDI0T_XBEIjmFF9rEgor6_ATqaBMVvp9O9_4uVJ8UkBYjKawp3SfLziS76fiyEd6gCuKvTTwhg0Zkp0i4yKOFutLutIrXdF7vOoQT0P5l3T8nLONWP_E3ckfG5-ARD8Knnj6fV4CCsOVGKjO72Pc3pJ8o9AA0Yxvy_0M0nrodVCgArU2ro10ToLeOUk8wV99XLwcLiAEZQD-fZxjaAASXwVyENP_i6Nu-OveILkF8WCki1BcZ73-xqndg6cIGysiezOp5mt3Aag&price=LeogoVDCtAnAbGBVrzTiliPHbymSnnghherlsA\",\"https://got.pubnative.net/impression?aid=1644011&t=qx4uKugpfPZbe5-UAgUzsZ6n-nvahYwikLmz1vWkBdBvisTUT1wV9kEAyBF9Q2FvvDMO7-YDOkN3TSoukM0Ulz7ebFn8vDWQl7BFCuld3CXFJD2VUXHS1bMmCom2Irhc3tX3kjAV_vOh1RNdWEuA90IqCmv7m1A3o-29cmdq6W3Ae69WtikzkEcBnJBzKKtA4COtAxlunpRMYYVQdj-6v9nj0EQHXd_w2e7a3ZrJ-W-oGFDKxUfW8CC63JcbGHPHQIpWkcXpTTQNHMS3t6ucaWi24fzWt6C4UWc-ycnT7NH0RBoUFkkNJOmWqkPx_Iqa5iQxSwcX0VnG_eCfoJw-9ufGd_LPr3qgdCe6RE_rzYXNvi3aRNKPtZZ1FIrmmwES7LXDy7Fx9TEPg7G58E23nw3Isay0mi8T35s35v-zMakV0Z2J8RuF_uDceiLRF8hiAKLPOouy0LGldJbxC1oS8OM8BSWW8ku3bnbt5DZ1YxNhNXNfOth6xs7GFJg0y64K7F3aYZc-yqOWXMybXTy4EqphWkOIAjRURVCctgbwOt_u5Mbw77gWDIgbqhYGjF1GKgf-rmvP8D4u-X7n2hcoeViMcZCTStWrvOMpBQHEkoW9gOixW4MRP1kRgHU3PRiNunW5BRyLib0vkKh3nmTumoowKorzyZf9HxwGJlk9dBkaolKv3u_I2ds3uwMY60kH1SDhxS5DnexdpYxSDUSHyPFR5x9AB3JKKO385F0tV-8RuKgS6ibIsd1D_GGjrsmBM9-mzfoOcwFUmICTHjONZHLZD6eSVfxXF1_sxC6QQdYKxl8MXsRoGL3qPEuNaiZydAcIP5PBuUnEcNZJBg6HvFh9htZgPj6AdXKVUUgEhDNOVLJb0UmrWVKDqRHlouAaU-MzhrmISRK-qW4ZnujWT1udfxFCsgM&ap=${AUCTION_PRICE}\",\"https://adrta.com/i?clid=pn&paid=pn&avid=483&caid=112977&kv1=320x480&kv11=3f483830-4eb5-49f5-92dc-220e0da95f81&kv12=100004-1000423&kv16=-7.248400&kv17=112.741900&kv18=com.imo.android.imoim&kv19=497977a5-9b6e-4fab-a8c9-fae3aef0fbbc&kv2=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.imo.android.imoim&kv24=Mobile_InApp_Banner&kv27=Mozilla%2F5.0+%28Linux%3B+Android+9%3B+SM-G970F+Build%2FPPR1.180610.011%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F74.0.3729.136+Mobile+Safari%2F537.36&kv28=SM-G970F&kv3=497977a5-9b6e-4fab-a8c9-fae3aef0fbbc&kv4=114.79.23.221&plid=8904950&publisherId=1007334&siteId=1644011\"],\"https://got.pubnative.net/imp/error?t=twkU6hRQYXgN_9Z_1wZKw1FCX4tObZXpnVUez01fM2JMPD8tusOlglOrT9Jd564cXrDNDTmbxebAyG9IY7q78DdcBhnBMtjo2AQDRt9DEZSmqgcxp258WiJ4w-jHe3Ob3JOhaHZTthUk&msg=\", {\"pubAppID\":1644011,\"dspID\":483,\"impID\":\"3f483830-4eb5-49f5-92dc-220e0da95f81\",\"isMRAID\":false,\"isHTML5\":false});
+
+</script>\r\n<script type='text/javascript'>
+    (function() {
+            \
+            r\ nvar w = window;\
+            r\ nvar sc = w.screen;\
+            r\ nvar url = 'https://ads.as.criteo.com/delivery/r/ajs.php?did=5f523e20eea8197ca47f67e438936200&z=tGWxMfj8W7OYO0UykdEsKtQgLp2BaddUNTaZLA&u=%7CHhRbQZR74RZh1giEqD6gW8cJ%2B7YmFacynsQzE8NuhGE%3D%7C&c1=JueOF0hx20VxMhGM94dGxQGsVOAaiHJh85x8UGFyOMKPIjGg5baQ3UBxBk4C23xQpD0Ml_9FXSBebv5sg3IaojkabgkUDZoWaEKweGW6cGoVXHXQ815L6qyGEdoA9Fp_srxApcAKF5Mc1ULFmTyVPWXFrHHSjA2T-qAa0pRts6JhqpmmDV3fwbkIiXdMmBa9WwxO1Hcmh7kosr8BxvadZLm8pkuIZ8eJHIZiwyzhJtBh3NzAKPrWHq418xO6OVqsNUMX9VqHC2i0BJlDRWc9B_kGOHIVqXGdwULYBZBXee1HC3hUsoAFS_vZEPa1849GTgkoga3cP0747QO2JprIMfrvPCpMYuBxbsp8AVm1gV8j4aNHPRSNHx2xslw5LtyC_P_riUKnYl-9nfaCt4X1qXHMSahO5Kp04jYyctJD2IV4BFa3mp91fKHf8CSXK98tACzeu3Wh1ffi6v2c8Ab-1HapK-KjkmHJOYMYBLQFeihXE9_RRkbMS-zQfrKGPNCltWukX8OIVwAHwory_E2BY6P4HTpURNlsZXiidMrqIBhhchq2nZDpsQ' + '&wvw=' + (w.innerWidth || (sc && (sc.width || sc.availWidth)) || 0) + '&wvh=' + (w.innerHeight || (sc && (sc.height || sc.availHeight)) || 0);\
+            r\ nvar s = \"<\"+\"script type=\\'text/javascript\\' src=\\'\" + url + \"\\'><\"+\"/script>\";\r\ndocument.write(s);})();\r\n
+
+</script>
